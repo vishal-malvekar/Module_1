@@ -13,7 +13,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col">
-                <h1 class="mb-4 text-center">Profiles</h1>
+                <h1 class="mb-4 text-center">Vishal Malvekar's Resume Registry</h1>
 
                 <?php 
                     require "pdo.php";
