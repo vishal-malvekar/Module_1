@@ -24,10 +24,11 @@
                         unset($_SESSION['success']);
                     }
 
-                    if (isset($_SESSION['name'])) {
-                        echo '<p class="text-right"><a href="logout.php" class="btn btn-outline-primary">Logout</a></p>';
+                    if ( isset($_SESSION['name'])) {
+                        echo "<a href='logout.php'>Logout</a><br />";
+                       
                     } else {
-                        echo '<p class="text-right"><a href="login.php" class="btn btn-outline-primary">Please log in</a></p>';
+                        echo "<a href='login.php'>Please log in</a>";
                     }
                 ?>
 
